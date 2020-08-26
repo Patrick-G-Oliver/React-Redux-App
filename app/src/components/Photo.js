@@ -14,8 +14,12 @@ const Photo = ({ getPhoto, photo, isFetching, error }) => {
     return (
         <div>
             <h2>Random Photo from Unsplash</h2>
-            <img className="dogImg" src={photo} alt="a random dog"></img>
-            <button className="imgButton" onClick={getPhoto}>Change Photo</button>
+            <div className="photo-wrapper">
+                <img className="dogImg" src={photo} alt="a random dog"></img>
+            </div>
+            <div className="button-wrapper">
+                <button className="change-photo-button" onClick={getPhoto}>Change Photo</button>
+            </div>
         </div>
     );
 };

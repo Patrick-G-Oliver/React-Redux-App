@@ -5,7 +5,7 @@ import Photo from "./components/Photo";
 
 function App() {
   return (
-    <div>
+    <div className="outer-wrapper">
       <h1>Photo Shuffler</h1>
       <Photo />
     </div>

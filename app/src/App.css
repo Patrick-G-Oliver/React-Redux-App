@@ -2,37 +2,67 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-family: 'Cinzel', serif;
+  background-color: #ececdb;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 25px auto;
+  border: 1px solid;
+  border-radius: 7.5px;
+  width: 90%;
+  box-shadow: 0 10px 10px 1px inset rgb(65, 64, 62);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.outer-wrapper {
+  margin: 25px auto;
+  border: 1.25px solid;
+  border-radius: 7.5px;
+  width: 90%;
+  box-shadow: 0 10px 10px 1px rgb(65, 64, 62);
 }
 
-.App-link {
-  color: #61dafb;
+.photo-wrapper {
+  margin: 25px auto;
+  border: 1px solid;
+  border-radius: 7.5px;
+  width: 250px;
+  height: 350px;
+  box-shadow: 0 10px 10px 1px inset rgb(65, 64, 62);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  margin: 25px auto;
+  border: 2px solid;
+  box-shadow: 0 10px 10px 1px rgb(65, 64, 62);
+}
+
+.button-wrapper {
+  margin: 25px auto;
+  border: 1.25px solid;
+  border-radius: 7.5px;
+  width: 50%;
+  box-shadow: 0 10px 10px 1px inset rgb(65, 64, 62);
+}
+
+.change-photo-button {
+  color: #073001;
+  width: 80%;
+  padding: 15px;
+  margin: 15px auto;
+  font-family: 'Cinzel', serif;
+  font-size: 1.25rem;
+  background-color: #ececdb;
+  border: 1px solid;
+  border-radius: 3%;
+  box-shadow: 0 5px 10px 1px rgb(65, 64, 62);
+  outline: none;
+}
+
+.change-photo-button:active {
+  background-color: rgb(238,235,209); 
+  box-shadow: 0 5px rgb(65, 64, 62);
+  transform: translateY(4px);
 }
