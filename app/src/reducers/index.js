@@ -1,25 +1,25 @@
 const initialState = {
-    loading: false, 
-    image: null,
+    loading: false,
+    photo: null,
     isFetching: false,
     error: ""
-};
+}
 
 export const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case "FETCHING_IMAGE_START":
+        case "FETCHING_PHOTO_START":
             return {
-                ...state, 
+                ...state,
                 isFetching: true,
                 error: ""
             };
-        case "FETCHING_IMAGE_SUCCESS":
+        case "FETCHING_PHOTO_SUCCESS":
             return {
                 ...state,
-                image: action.payload,
+                photo: action.payload,
                 isFetching: false
             };
         default:
-            return state;
-    };
+            return state;     
+    }
 };

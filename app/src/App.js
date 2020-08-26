@@ -1,10 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+
+import Photo from "./components/Photo";
 
 function App() {
   return (
-    <div className="App">
-     <h1>filler</h1>
+    <div>
+      <h1>Random Dog Pics</h1>
+      <Photo />
     </div>
   );
 }
