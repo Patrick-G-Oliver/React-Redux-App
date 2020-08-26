@@ -11,16 +11,16 @@ html {
 
 body {
   margin: 25px auto;
-  border: 1.25px solid white;
+  border: 1.25px solid rgb(52, 53, 47);
   border-radius: 7.5px;
   width: 90%;
-  box-shadow: 0 10px 10px 1px inset white;
+  box-shadow: 0 10px 10px 1px inset rgb(177, 172, 172);
   background-color: black;
 }
 
 .outer-wrapper {
   margin: 25px auto;
-  border: 1.25px solid white;
+  border: 1.25px solid rgb(52, 53, 47);
   border-radius: 7.5px;
   width: 90%;
   box-shadow: 0 10px 10px 1px white;
@@ -29,27 +29,27 @@ body {
 
 .photo-wrapper {
   margin: 25px auto;
-  border: 1.25px solid white;
+  border: 1.25px solid rgb(52, 53, 47);
   border-radius: 7.5px;
   width: 250px;
   height: 350px;
-  box-shadow: 0 10px 10px 1px inset white;
+  box-shadow: 0 10px 10px 1px inset rgb(177, 172, 172);
   background-color: black;
 }
 
 img {
   margin: 25px auto;
-  border: 1.25px solid white;
+  border: 1.25px solid rgb(52, 53, 47);
   border-radius: 7.5px;
-  box-shadow: 0 10px 10px 1px white;
+  box-shadow: 0 10px 10px 1px rgb(177, 172, 172);
 }
 
 .button-wrapper {
   margin: 25px auto;
-  border: 1.25px solid white;
+  border: 1.25px solid rgb(52, 53, 47);
   border-radius: 7.5px;
   width: 50%;
-  box-shadow: 0 10px 10px 1px inset white;
+  box-shadow: 0 10px 10px 1px inset rgb(177, 172, 172);
   background-color: black;
 }
 
@@ -62,16 +62,16 @@ img {
   font-family: 'Cinzel', serif;
   font-size: 1.25rem;
   background-color: black;
-  border: 1.25px solid;
+  border: 1.25px solid rgb(52, 53, 47);
   border-radius: 5px;
-  box-shadow: 0 5px 10px 1px white;
+  box-shadow: 0 5px 10px 1px rgb(177, 172, 172);
   outline: none;
   background-color: #383b3b;
 }
 
 .change-photo-button:active {
   background-color: rgb(39, 39, 34); 
-  box-shadow: 0 5px white;
+  box-shadow: 0 5px rgb(177, 172, 172);
   transform: translateY(4px);
 }
 
