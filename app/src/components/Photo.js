@@ -2,33 +2,36 @@ import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { getPhoto } from "../actions";
 
-const Photo = ({ getPhoto, photo, isFetching, error }) => {
+const Photo = ({ getPhoto, photo, isFetching }) => {
     useEffect(() => {
         getPhoto();
     }, [getPhoto]);
 
     if(isFetching) {
         return <h2>Image is loading...</h2>;
-    }
+    };
 
     return (
         <div>
-            <h2>Random Photo from Unsplash</h2>
+            <h2>Random Photos from Unsplash</h2>
             <div className="photo-wrapper">
-                <img src={photo} alt="unsplash photography sample"></img>
+                <img width="200" height="300" src={photo} alt="unsplash photography sample"></img>
             </div>
             <div className="button-wrapper">
-                <button className="change-photo-button" onClick={getPhoto}>Change Photo</button>
+                <button className="change-photo-button" onClick={getPhoto}>Change 
+                Photo</button>
             </div>
         </div>
     );
+
 };
 
 const mapStateToProps = state => {
     return {
         photo: state.photo,
         isFetching: state.isFetching,
-        error: state.error
+        error: state.error,
+        // dogBreed: state.dogBreed // search change 
     };
 };
 

@@ -2,7 +2,8 @@ const initialState = {
     loading: false,
     photo: null,
     isFetching: false,
-    error: ""
+    error: "",
+    //dogBreed: "" // search function change
 }
 
 export const reducer = (state = initialState, action) => {
