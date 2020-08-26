@@ -6,7 +6,7 @@ import Photo from "./components/Photo";
 function App() {
   return (
     <div>
-      <h1>Random Dog Pics</h1>
+      <h1>Photo Shuffler</h1>
       <Photo />
     </div>
   );
